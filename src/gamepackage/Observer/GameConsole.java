@@ -1,4 +1,6 @@
-package gamepackage;
+package gamepackage.Observer;
+
+import gamepackage.Factory.Character;
 
 public class GameConsole implements ArenaObserver {
     @Override

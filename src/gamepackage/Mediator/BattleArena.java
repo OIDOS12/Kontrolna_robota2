@@ -1,4 +1,7 @@
-package gamepackage;
+package gamepackage.Mediator;
+
+import gamepackage.Factory.Character;
+import gamepackage.Observer.ArenaObserver;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,11 +14,6 @@ public class BattleArena implements Arena {
     public void registerCharacter(Character character) {
         characters.add(character);
         notifyObservers(character);
-    }
-
-    @Override
-    public void sendMessage(Character sender, Character receiver, String message) {
-        System.out.println(sender.getName() + " -> " + receiver.getName() + ": " + message);
     }
 
     @Override

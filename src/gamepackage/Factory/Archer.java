@@ -1,15 +1,16 @@
-package gamepackage;
+package gamepackage.Factory;
 
-public class Warrior implements Character {
+public class Archer implements Character {
     private String name;
-    private int health = 150;
-    private int attackPower = 20;
+    private int health = 120;
+    private int attackPower = 30;
     private int x;
     private int y;
 
-    public Warrior(String name) {
+    public Archer(String name) {
         this.name = name;
     }
+
     @Override
     public String getName() {return name;}
     @Override

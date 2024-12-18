@@ -1,6 +1,6 @@
-package gamepackage;
+package gamepackage.Factory;
 
-public class Mage implements Character {
+public class Mage implements gamepackage.Factory.Character {
     private String name;
     private int health = 100;
     private int attackPower = 40;

@@ -1,4 +1,4 @@
-package gamepackage;
+package gamepackage.Factory;
 
 public class MageFactory extends CharacterFactory {
     @Override

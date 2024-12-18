@@ -1,4 +1,4 @@
-package gamepackage;
+package gamepackage.Factory;
 
 public abstract class CharacterFactory {
     public abstract Character createCharacter(String name);
